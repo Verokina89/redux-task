@@ -25,6 +25,7 @@ const App = () => {
 
   return (
     <>
+    <h1>Lista de Tareas</h1>
     <div className="card">
       <input 
       type="text" 
@@ -42,7 +43,6 @@ const App = () => {
         ))}
       </ul>
     </div>
-    <h1>Lista de Tareas</h1>
     </>
   );
 };
